@@ -3,6 +3,10 @@ h1, h2, h3, h4, h5, h6, p, a {
     color: #333333;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     background: #FFF8E1;
 }
@@ -10,17 +14,36 @@ body {
 header {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    padding: 0 34px;
+    height: 120px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
 }
 
 h1 {
     font-size: 43px;
+    line-height: 48px;
     font-weight: 600;
+    position: relative;
+    top: -5px;
 }
 
 nav ul {
+    height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     list-style: none;
+}
+
+nav a {
+    font-size: 17px;
+    font-weight: 700;
+    position: relative;
+    top: -3px;
 }
 
 nav li:last-of-type {
@@ -29,8 +52,34 @@ nav li:last-of-type {
 
 .hero {
     background: #FF8C00;
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-left: 65px;
 }
 
 h2 {
     color: #fff;
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 64px;
+}
+
+h2 span {
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 45vw;
+    margin-top: 26px;
+}
+
+.hero img {
+    width: 50vw;
+    position: absolute;
+    right: 0;
+    bottom: -16vh;
 }
