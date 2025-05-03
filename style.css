@@ -21,11 +21,17 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    height: 100%;
+}
+
+.logo-icon {
+    font-size: 44px;
+    margin-right: 8px;
 }
 
 h1 {
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 30px;
+    line-height: 44px;
     font-weight: 600;
     position: relative;
     top: -5px;
