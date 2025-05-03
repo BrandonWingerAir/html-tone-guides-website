@@ -97,7 +97,7 @@ h2 span {
 .hero img {
     width: 50vw;
     position: absolute;
-    right: 0;
+    right: 1vw;
     bottom: -8.4vw;
     z-index: 1;
 }
@@ -120,6 +120,17 @@ h5 {
     gap: 10%;
     text-align: center;
     padding: 2.5%;
+    height: 14.5vw;
+}
+
+.grid-separate {
+    border-bottom: 1px solid #333333;
+}
+
+.display-grid {
+    height: 100%;
+    padding-bottom: 5.5%;
+    padding-top: 2%;
 }
 
 .item-grid img {
@@ -166,8 +177,31 @@ h5 {
     padding: 4% 5% 6%;
 }
 
+.feature-section {
+    text-align: center;
+}
+
 footer {
     background-color: #A67B5B;
+    text-align: center;
+    padding: 20px 0 25px;
+}
+
+h6 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    font-weight: 600;
+    margin-top: 14px;
+}
+
+h6 a {
+    color: #fff;
+}
+
+footer a img {
+    width: 36px;
+    margin: 0 10px;
 }
 
 /* Tuner Page */
