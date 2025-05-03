@@ -118,6 +118,14 @@ h5 {
     object-fit: cover;
 }
 
+.wood-bg {
+    width: 100%;
+}
+
+footer {
+    background-color: #A67B5B;
+}
+
 /* Tuner Page */
 #tuner { text-align: center; font-family: sans-serif; }
 #note { font-size: 4em; font-weight: bold; }
