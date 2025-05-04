@@ -4,39 +4,114 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="tuner">
-    <canvas id="visualizer" width="300" height="100"></canvas>
-    <div id="pitch-info">
-      <span id="note">--</span>
-      <span id="octave"></span>
-      <div id="detune">
-        <span id="detune-amount">--</span>
-        <span id="detune-direction"></span>
-      </div>
-    </div>
-    <button id="startBtn">Start Tuner</button>
-  </div>
+	<header>
+		<a href="/">
+			<div class="logo">
+				<div class="logo-icon">
+					🎸
+				</div>
+				<h1>
+					Tone Guides 🔊
+					Studies & Presets
+				</h1>
+			</div>
+		</a>
 
-  <div>
-    <h3>Guitar Tunings:</h3>
-    <p>Standard (E A D G B E)</p>
-    <p>Drop D (D A D G B E)</p>
-    <p>Drop C (C A D G B E)</p>
-    <p>Half-Step Down (D# G# C# F# A# D#)</p>
-    <p>Full-Step Down (D G C F A D)</p>
+		<nav>
+			<ul>
+				<li>
+					<a href="./learn.html">
+						Learn
+					</a>
+				</li>
+				<li>
+					<a href="./guitar-tones.html">
+						Guitar & Bass Tones
+					</a>
+				</li>
+				<li>
+					<a href="./tuner.html" target="_blank">
+						Tuner
+					</a>
+				</li>
+				<li>
+					<a href="./software.html">
+						Free VSTs & IRs
+					</a>
+				</li>
+				<li>
+					<a href="">Tunings</a>
+				</li>
+				<li>
+					<a href="">
+						Tone Requests
+					</a>
+				</li>
+				<li>
+					<a href="">Membership (Prompt Shortcuts)</a>
+				</li>
+				<li>
+					<a href="">About / Contact</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="./images/yt_logo.png" alt="">
+					</a>
+					<a href="">
+						<img class="last-nav-logo" src="./images/discord-logo.png" alt="">
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
 
-    <h3>Bass Tunings:</h3>
-    <p>Standard (E A D G)</p>
-    <p>Drop D (D A D G)</p>
-    <p>Drop C (C A D G )</p>
-    <p>Half-Step Down (D# G# C# F#)</p>
-    <p>Full-Step Down (D G C F)</p>
-  </div>
-  
-  <script src="script.js"></script>
+	<div id="tuner">
+    	<canvas id="visualizer" width="300" height="100"></canvas>
+
+		<div id="pitch-info">
+			<span id="note">--</span>
+			<span id="octave"></span>
+
+			<div id="detune">
+				<span id="detune-amount">--</span>
+				<span id="detune-direction"></span>
+			</div>
+		</div>
+
+		<button id="startBtn">Start Tuner</button>
+	</div>
+
+	<div>
+		<h3>Guitar Tunings:</h3>
+		<p>Standard (E A D G B E)</p>
+		<p>Drop D (D A D G B E)</p>
+		<p>Drop C (C A D G B E)</p>
+		<p>Half-Step Down (D# G# C# F# A# D#)</p>
+		<p>Full-Step Down (D G C F A D)</p>
+
+		<h3>Bass Tunings:</h3>
+		<p>Standard (E A D G)</p>
+		<p>Drop D (D A D G)</p>
+		<p>Drop C (C A D G )</p>
+		<p>Half-Step Down (D# G# C# F#)</p>
+		<p>Full-Step Down (D G C F)</p>
+	</div>
+
+	<footer>
+        <a href="">
+            <img src="./images/yt_logo.png" alt="">
+        </a>
+        <a href="">
+            <img src="./images/discord-logo.png" alt="">
+        </a>
+        <h6>Made with ❤️ by <a href="">Brandon Winger-Air</a></h6>
+    </footer>
+
+	<script src="script.js"></script>
 </body>
 </html>
 

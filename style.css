@@ -25,8 +25,9 @@ header {
 }
 
 .logo-icon {
-    font-size: 44px;
-    margin-right: 8px;
+    font-size: 66px;
+    margin-right: 6px;
+    margin-top: -12px;
 }
 
 h1 {
@@ -43,6 +44,7 @@ nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    margin-left: 22px;
 }
 
 nav a {
@@ -50,6 +52,10 @@ nav a {
     font-weight: 700;
     position: relative;
     top: -3px;
+}
+
+nav a span {
+    font-weight: 500;
 }
 
 nav li img {
@@ -199,9 +205,15 @@ h6 a {
     color: #fff;
 }
 
+footer a img {
+    width: 36px;
+    margin: 0 10px;
+}
+
+/* Study Page */
 .tone-page {
     text-align: center;
-    padding: 0 17%;
+    padding: 0 18%;
 }
 
 h3 {
@@ -217,10 +229,23 @@ h3 {
     width: 40%;
 }
 
+.tone-desc h5 {
+    text-decoration: underline;
+}
+
+.tone-desc ol {
+    margin: 0 auto;
+    width: 15%;
+    text-align: left;
+}
+
 .tone-page p {
     font-size: 19px;
     line-height: 28px;
     margin-bottom: 20px;
+}
+
+.tone-article p {
     text-align: left;
 }
 
@@ -229,6 +254,7 @@ h3 {
 }
 
 .tone-page h3 {
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
@@ -244,16 +270,36 @@ h3 {
     line-height: 27px;
 }
 
-footer a img {
-    width: 36px;
-    margin: 0 10px;
+/* Tuner Page */
+#tuner { 
+    text-align: center; 
+    font-family: sans-serif;
+    background: #333333;
+    color: white;
 }
 
-/* Tuner Page */
-#tuner { text-align: center; font-family: sans-serif; }
-#note { font-size: 4em; font-weight: bold; }
-#octave { font-size: 2em; vertical-align: super; }
-#detune { font-size: 1.5em; margin-top: 0.5em; }
-#detune-direction.flat { color: #E33; }   /* red if flat */
-#detune-direction.sharp { color: #33E; }  /* blue if sharp */
-#detune-direction.in-tune { color: #3A3; }/* green when in tune */
+#note {
+    font-size: 4em; font-weight: bold;
+}
+
+#octave {
+    font-size: 2em; 
+    vertical-align: super;
+}
+
+#detune {
+    font-size: 1.5em; 
+    margin-top: 0.5em;
+}
+
+#detune-direction.flat {
+    color: #E33;
+}
+
+#detune-direction.sharp {
+    color: #33E;
+}
+
+#detune-direction.in-tune {
+    color: #3A3;
+}
