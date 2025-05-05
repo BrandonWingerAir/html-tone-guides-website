@@ -270,6 +270,15 @@ h3 {
     line-height: 27px;
 }
 
+/* Instruments Page */
+.instruments > div {
+    margin-bottom: 24px;
+}
+
+.instruments h4 span {
+    font-weight: 500;
+}
+
 /* Tuner Page */
 #tuner { 
     text-align: center; 
