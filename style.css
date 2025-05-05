@@ -271,12 +271,22 @@ h3 {
 }
 
 /* Instruments Page */
+.instruments {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .instruments > div {
     margin-bottom: 24px;
 }
 
 .instruments h4 span {
     font-weight: 500;
+}
+
+.instruments img {
+    display: block;
+    width: 18vw;
 }
 
 /* Tuner Page */
