@@ -16,6 +16,7 @@ header {
     grid-template-columns: 1fr 4fr;
     padding: 0 34px;
     height: 120px;
+    border-bottom: 2px solid #A67B5B;
 }
 
 .logo {
@@ -294,18 +295,61 @@ h3 {
     text-align: center;
 }
 
+.page-header {
+    background: #E0E0E0;
+    padding: 14px 0 34px;
+    border-bottom: 2px solid #333;
+}
+
+.page-title {
+    position: relative;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 11px;
+}
+
 .prompts h2 {
+    position: absolute;
     color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 18px;
+    margin: 0 auto;
+    font-size: 44px;
 }
 
 .prompts > div {
     text-align: left;
 }
 
+.prompts h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.prompts-content {
+    background-color: #fafafa;
+    padding: 10px 22vw;
+}
+
+.prompts-content div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.prompts-content a {
+    margin:  20px auto 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .prompts h4 {
     text-decoration: underline;
     margin-top: 12px;
     font-size: 21px;
+    text-align: center;
+    margin: 54px 0 36px;
 }
 
 .prompts h5 {
