@@ -289,6 +289,35 @@ h3 {
     width: 18vw;
 }
 
+/* Prompts Page */
+.prompts {
+    text-align: center;
+}
+
+.prompts h2 {
+    color: #333;
+}
+
+.prompts > div {
+    text-align: left;
+}
+
+.prompts h4 {
+    text-decoration: underline;
+    margin-top: 12px;
+    font-size: 21px;
+}
+
+.prompts h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.prompts p {
+    font-size: 17px;
+}
+
 /* Tuner Page */
 #tuner { 
     text-align: center; 
