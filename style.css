@@ -362,6 +362,38 @@ h3 {
     font-size: 17px;
 }
 
+/* Contact & About Page */
+.about-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: 33vw;
+    margin: 0 auto;
+    padding: 47px 0 26px;
+}
+
+.about-contact h4 {
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.about-contact h5 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.about-profile img {
+    width: 100%;
+}
+
+.about-links {
+    text-align: center;
+}
+
+.about-links a {
+    margin: 0 2px;
+}
+
 /* Tuner Page */
 #tuner { 
     text-align: center; 
