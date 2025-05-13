@@ -59,6 +59,39 @@ nav a span {
     font-weight: 500;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+nav li {
+    position: relative;
+}
+  
+nav ul .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    padding: 0;
+    z-index: 1;
+    width: 100%;
+    margin-left: 0;
+}
+
+.submenu a {
+    color: #fff;
+}
+
+nav ul .submenu li {
+    background: #A67B5B;
+    padding: 17px 10px 20px;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
 nav li img {
     width: 25px;
 }
@@ -75,6 +108,7 @@ nav li:last-of-type {
     margin-right: 0;
 }
 
+/* Hero Section */
 .hero {
     background: #FF8C00;
     position: relative;
